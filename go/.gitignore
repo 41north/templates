@@ -1,0 +1,12 @@
+# go
+/gonix
+
+# ide files and directories
+.idea/
+*.iml
+
+# builds
+/out
+
+# direnv
+/.direnv/
