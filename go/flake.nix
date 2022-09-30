@@ -67,6 +67,7 @@
           packages = with pkgs;
             [
               delve # https://github.com/go-delve/delve
+              gcc
               go_1_19 # https://go.dev/
               gotools # https://go.googlesource.com/tools
             ]
