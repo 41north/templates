@@ -82,11 +82,10 @@
               touch $out
             '';
         };
-      }) //
-      {
+      })
+      // {
         # nix flake new --template github:41north/templates#<template> ./new-dir
         templates = {
-
           # nix flake new --template github:41north/templates#go ./new-project
           go = {
             path = ./go;
